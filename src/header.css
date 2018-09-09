@@ -1,0 +1,65 @@
+ul li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    line-height: 30px;
+    
+}
+ul li a {
+    transition: all 200ms;
+}
+
+.top1 {
+    color: #3e4f74;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.middle1 {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bottom1{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.top2 {
+    color: #3e4f74;
+    text-decoration: none;
+    font-size: 25px;
+}
+.middle2 {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.bottom2{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.top3 {
+    color: #3e4f74;
+    text-decoration: none;
+    font-size: 25px;
+}
+.middle3 {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.bottom3{
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+ul li a:hover {
+    font-size: 30px;
+    font-size-adjust: 20px;
+}
+.navList {
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+}
